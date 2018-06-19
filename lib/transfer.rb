@@ -14,5 +14,6 @@ class Transfer
   end
 
   transfer_class = File.read("lib/transfer.rb")
-
+  transfer_class.scan(/sender.valid\? \&\& receiver.valid\?/)
+  
 end
