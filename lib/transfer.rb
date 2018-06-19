@@ -13,6 +13,6 @@ class Transfer
     @sender.valid? && @receiver.valid?
   end
 
-  
+  transfer_class = File.read("lib/transfer.rb")
 
 end
