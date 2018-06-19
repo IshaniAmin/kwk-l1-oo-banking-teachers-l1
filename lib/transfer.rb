@@ -14,7 +14,7 @@ class Transfer
   end
 
   def transfer_class
-    @sender.valid? && @receiver.valid?
+    1
   end
 
 end
