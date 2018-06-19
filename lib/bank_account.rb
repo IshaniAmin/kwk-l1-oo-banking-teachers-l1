@@ -13,4 +13,8 @@ class BankAccount
     @balance = @balance + amt
   end
 
+  def display_balance
+    "Your Balance is $#{avi.balance}."
+  end
+
 end
