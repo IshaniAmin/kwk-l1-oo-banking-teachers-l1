@@ -13,6 +13,8 @@ class Transfer
     @sender.valid? && @receiver.valid?
   end
 
-  
+  def transfer_class
+    @sender.valid? && @receiver.valid?
+  end
 
 end
